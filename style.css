@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 10%;
+    background:#111827;
+    position:fixed;
+    width:100%;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+section{
+    padding:100px 10%;
+    min-height:100vh;
+}
+
+.home{
+    display:flex;
+    align-items:center;
+}
+
+.home span{
+    color:#38bdf8;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:#38bdf8;
+    color:black;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.about, .skills, .projects, .contact{
+    text-align:center;
+}
+
+.skill{
+    margin:20px 0;
+}
+
+.bar{
+    background:#1f2937;
+    height:10px;
+    border-radius:5px;
+}
+
+.bar div{
+    height:10px;
+    border-radius:5px;
+}
+
+.html{width:90%; background:#e34c26;}
+.css{width:80%; background:#264de4;}
+.js{width:60%; background:#f7df1e;}
+
+.project-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1f2937;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
